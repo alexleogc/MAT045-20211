@@ -1,8 +1,8 @@
 program inteiro
     implicit none
-    integer(kind=2) :: a
+    integer(kind=1) :: a
 
-    a = 32767
+    a = -128
 
     print*, a
 
